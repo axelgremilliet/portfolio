@@ -1,0 +1,267 @@
+body {
+    background: url(../image/5.0_technologie_innovation.jpg) no-repeat;
+
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .01rem;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color:#696969;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    opacity: 0.7;
+}
+
+nav .links--container ul {
+    display: flex;
+
+}
+
+nav .links--container ul > li:hover {
+    background-color: chocolate;
+}
+
+nav .links--container ul > li > a {
+    padding: 20px;
+    line-height: 60px;
+    color: black;
+}
+
+nav .logo--container {
+    margin-left: 20px;
+    height: 60px;
+    width: 60px;
+}
+
+.tête {
+    display: flex;
+    text-align: center;
+    height: 200px;
+    padding: 20px;
+    color: darkred;
+    font-family:  'Great Vibes';
+    background: url(../image/arrow-1988452_960_720.png) center no-repeat;
+    background-color: #696969;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-family: 'Great Vibes';
+    font-size: 3em;
+    margin: 0 auto;
+    width: 200px;
+    padding: 45px;
+}
+
+.about {
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+    height: 600px;
+    padding: 20px;
+    background-color: #696969;
+    /* background: url(../image/technology-3435575_960_720.jpg) no-repeat center;
+    background-size: cover; */
+    opacity: 0.7;
+    font-size: xx-large;
+}
+
+.end {
+    background-color: #696969;
+    border: 1px solid black;
+    opacity: 0.7;
+}
+
+.skills {
+    height: 600px;
+    border: 1px solid black;
+    opacity: 0.7;
+    background-color: #696969;
+}
+
+.exp {
+    border: 1px solid black;
+    opacity: 0.7;
+    background-color: #696969;
+    height: 600px;
+
+}
+
+
+
+/* .container {
+    display: flex;
+    padding: 5px;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+.Box1 {
+    background-color: chocolate;
+    border: 3px solid purple;
+    padding: 5px;
+}
+
+.Box2 {
+    background-color: chocolate;
+    border: 3px solid purple;
+    padding: 5px;
+}
+
+.Box3 {
+    background-color: chocolate;
+    border: 3px solid purple;
+    padding: 5px;
+}
+
+.Box4 {
+    background-color: chocolate;
+    border: 3px solid purple;
+    padding: 5px;
+}
+
+.section {
+    display: flex;
+    padding: 5px;
+    text-align: center;
+}
+
+.para1 {
+    background-color: chocolate;
+    border: 6px ridge purple;
+}
+
+.para2 {
+    background-color: chocolate;
+    border: 6px ridge purple;
+}
+
+.para3 {
+    background-color: chocolate;
+    border: 6px ridge purple;
+} */
+
+
+/* .wrap {
+	perspective: 800px;
+    perspective-origin: 50% 100px;
+    text-align: center;
+    height: 300px;
+    margin-top: 40px;
+}
+
+.cube {
+	position: relative;
+	width: 200px;
+	transform-style: preserve-3d;
+}
+
+.cube div {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: rgba(255,255,255,0.1);
+    box-shadow: inset 0 0 30px rgba(125,125,125,0.8);
+    font-size: 20px;
+    text-align: center;
+    line-height: 200px;
+    color: rgba(0,0,0,0.5);
+    font-family: sans-serif;
+    text-transform: uppercase;
+    display: block;
+}
+
+.trop {
+    transform: translateZ(-100px) rotateY(180deg);
+    background-color: chocolate;
+}
+.chaud {
+	transform: rotateY(-270deg) translateX(100px);
+    transform-origin: top right;
+    background-color: chocolate;
+}
+.fait {
+    transform: rotateY(270deg) translateX(-100px);
+	transform-origin: center left;
+    background-color: chocolate;
+}
+.dessus {
+	transform: rotateX(-90deg) translateY(-100px);
+    transform-origin: top center;
+    background-color: chocolate;
+}
+.dessous {
+	transform: rotateX(90deg) translateY(100px);
+    transform-origin: bottom center;
+    background-color: chocolate;
+}
+.il {
+    transform: translateZ(100px);
+    background-color: chocolate;
+}
+
+@keyframes spin {
+	from { transform: rotateY(0); }
+	to { transform: rotateY(360deg); }
+}
+
+.cube {
+	animation: spin 5s infinite linear;
+} */
